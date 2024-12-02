@@ -6,13 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		23CDF9CC2CFD83BE00890B61 /* RepositoryEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDF9CB2CFD83BE00890B61 /* RepositoryEntity+CoreDataProperties.swift */; };
+		23CDF9CD2CFD83BE00890B61 /* RepositoryEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDF9CA2CFD83BE00890B61 /* RepositoryEntity+CoreDataClass.swift */; };
+		23CDF9D62CFD9DF500890B61 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 23CDF9D52CFD9DF500890B61 /* KeychainAccess */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		23CBD6562CFCB25000CCBB5D /* Reena_7Span_Practical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reena_7Span_Practical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CDF9CA2CFD83BE00890B61 /* RepositoryEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RepositoryEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		23CDF9CB2CFD83BE00890B61 /* RepositoryEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RepositoryEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		23CDF9B92CFCC21C00890B61 /* Exceptions for "Reena_7Span_Practical" folder in "Reena_7Span_Practical" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 23CBD6552CFCB25000CCBB5D /* Reena_7Span_Practical */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		23CBD6582CFCB25000CCBB5D /* Reena_7Span_Practical */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				23CDF9B92CFCC21C00890B61 /* Exceptions for "Reena_7Span_Practical" folder in "Reena_7Span_Practical" target */,
+			);
 			path = Reena_7Span_Practical;
 			sourceTree = "<group>";
 		};
@@ -23,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23CDF9D62CFD9DF500890B61 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +54,8 @@
 		23CBD64D2CFCB25000CCBB5D = {
 			isa = PBXGroup;
 			children = (
+				23CDF9CA2CFD83BE00890B61 /* RepositoryEntity+CoreDataClass.swift */,
+				23CDF9CB2CFD83BE00890B61 /* RepositoryEntity+CoreDataProperties.swift */,
 				23CBD6582CFCB25000CCBB5D /* Reena_7Span_Practical */,
 				23CBD6572CFCB25000CCBB5D /* Products */,
 			);
@@ -65,6 +89,7 @@
 			);
 			name = Reena_7Span_Practical;
 			packageProductDependencies = (
+				23CDF9D52CFD9DF500890B61 /* KeychainAccess */,
 			);
 			productName = Reena_7Span_Practical;
 			productReference = 23CBD6562CFCB25000CCBB5D /* Reena_7Span_Practical.app */;
@@ -94,6 +119,9 @@
 			);
 			mainGroup = 23CBD64D2CFCB25000CCBB5D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				23CDF9D42CFD9DF500890B61 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 23CBD6572CFCB25000CCBB5D /* Products */;
 			projectDirPath = "";
@@ -119,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23CDF9CC2CFD83BE00890B61 /* RepositoryEntity+CoreDataProperties.swift in Sources */,
+				23CDF9CD2CFD83BE00890B61 /* RepositoryEntity+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,11 +284,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Reena_7Span_Practical/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Reena_7Span_Practical/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,11 +314,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Reena_7Span_Practical/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Reena_7Span_Practical/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,6 +356,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23CDF9D42CFD9DF500890B61 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23CDF9D52CFD9DF500890B61 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23CDF9D42CFD9DF500890B61 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 23CBD64E2CFCB25000CCBB5D /* Project object */;
 }
